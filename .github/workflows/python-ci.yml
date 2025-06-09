@@ -25,7 +25,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install poetry
+        pip install poetry@2.1.3
         poetry install
 
     # Fourth step: run tests with Pytest
